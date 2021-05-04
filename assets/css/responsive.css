@@ -1,0 +1,124 @@
+/* PC */
+@media (min-width: 1024px) {
+    #header .mobile-menu {
+        display: none;
+    }
+}
+
+/* Tablet and Mobile */
+@media (max-width: 1023px) {
+    #content .contact-person .button,
+    #content .place-content .buy-button{
+        padding: 16px 16px;
+    }
+
+    #content .form-control{
+        font-size: 20px;
+    }
+
+    #footer .footer-img {
+        padding: 0px 8px;
+    }
+
+    #footer .footer-img {
+        font-size: 36px;
+    }
+
+    #footer .footer-link {
+        padding: 13px 0px;
+        display: inline-block;
+    }
+
+    #content .contact-content .contact-infor {
+        line-height: 1.8
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #header .mobile-menu {
+        display: none;
+    }
+    #nav .subnav li a {
+        padding: 5px 16px;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+    
+    #header .header_search {
+        display: none;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color:rgb(57, 59, 61);
+    }
+
+    #nav .subnav a {
+        color: white;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav .subnav li a {
+        padding: 5px 37px;
+        line-height: 38px;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #content .member-mobile{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    #content .about-team{
+        margin-bottom: -32px;
+    }
+
+    #content .about-team .avatar{
+        width: 60%;
+        border-radius: 4px;
+    }
+
+    #content .place-team .place{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    #content .place .image-place{
+        height: auto;
+    }
+
+    #content .contact-content .contact-infor{
+        margin-bottom: 16px;
+    }
+
+
+    #content .contact-person .row-1{
+        margin-bottom: -8px;
+    }
+
+    
+
+}
